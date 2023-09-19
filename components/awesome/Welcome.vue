@@ -17,10 +17,10 @@ const titlesText = computed<string[]>(() =>
   (
     awesome?.layout?.welcome?.title ||
     awesome?.name ||
-    'Nuxt&nbsp;3 Awesome Starter'
+    'Brass_House'
   )
     .replaceAll('&nbsp;', '[space]')
-    .split(' ')
+    .split('_')
     .map((item) => item.replaceAll('[space]', ' '))
 )
 const leadingsText = computed(() => [
@@ -35,12 +35,6 @@ const leadingsText = computed(() => [
     startColor: '#7928CA',
     endColor: '#FF0080',
     delay: 2,
-  },
-  {
-    text: titlesText.value[2],
-    startColor: '#FF4D4D',
-    endColor: '#F9CB28',
-    delay: 4,
   },
 ])
 </script>

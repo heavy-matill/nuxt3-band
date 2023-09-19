@@ -2,9 +2,9 @@ import { AppConfigInput } from 'nuxt/schema'
 
 export default defineAppConfig({
   awesome: {
-    name: 'Nuxt 3 Awesome Starter',
+    name: 'Brass_House',
     description:
-      'a starter template for Nuxt 3 with minimalist themes design, built in components, drawer & menus, and more.',
+    'the electronic music project that our horns deserve',
     project: {
       links: {
         github: 'https://github.com/viandwi24/nuxt3-awesome-starter',
@@ -43,14 +43,14 @@ export default defineAppConfig({
         year: new Date().getFullYear(),
       },
       welcome: {
-        title: 'Nuxt&nbsp;3 Awesome Starter',
+        title: 'Brass_House',
         disableInfoReplaceIndexInWelcomePage: true,
       },
     },
     author: {
-      name: 'viandwi24',
+      name: 'heavy-matill',
       links: {
-        github: 'https://github.com/viandwi24',
+        github: 'https://github.com/heavy-matill',
         medium: 'https://viandwi24.medium.com',
         website: 'https://viandwi24.site',
       },
